@@ -5,6 +5,11 @@ int main(){
     srand(time(0));
 
     int h = 0, t = 0;
+
+    string name;
+    cout << "Who are you?" << endl;
+    cin >> name;
+    cout << "Hello, " << name << "!" << endl;
     
     cout << "Tossing a coin..." << endl;
 
